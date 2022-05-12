@@ -24,7 +24,7 @@ You must provide an API key inside a JSON body, with the key `api_key`.
 
 ### Response
 `200` status with a JSON object, containing:
-- `message`: The type of planet generated
+- `message`: The outcome of the login
 - `token`: The access token, used to authenticate for your next requests
 
 ```json
@@ -34,4 +34,4 @@ You must provide an API key inside a JSON body, with the key `api_key`.
 }
 ```
 
-> Note: Tokens are valid during 24h. You need to get a new token once a given one expires.
+> Note: Tokens are valid during 24h. You need to get a new token once it expires.
